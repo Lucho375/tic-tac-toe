@@ -16,7 +16,7 @@ export default function Footer(): JSX.Element {
             aria-label="LinkedIn Profile"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/luciano-rodr%C3%ADguez-471b951ab/"
+            href="https://www.linkedin.com/in/luciano-rodriguez97/"
           >
             <LinkedInIcon className="hover:opacity-80 transition" />
           </a>
