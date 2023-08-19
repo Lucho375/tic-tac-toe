@@ -2,6 +2,14 @@
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
+  "description": "A simple Tic Tac Toe game built with Next.js, Tailwind CSS, Material-UI Icons, and TypeScript.",
+  "author": {
+    "name": "Luciano Rodríguez"
+  },
+  "repository": {
+    "url": "https://github.com/Lucho375/tic-tac-toe",
+    "type": "git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
