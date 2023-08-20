@@ -1,3 +1,3 @@
 export default function Tie() {
-  return <div>{` <Tie /> `}</div>
+  return <h2 className="text-xl">Tie</h2>
 }
