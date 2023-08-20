@@ -7,6 +7,7 @@ type RestartButtonProps = {
 export default function RestartButton({ handleRestart }: RestartButtonProps): JSX.Element {
   return (
     <button
+      aria-label="Restart game button"
       onClick={handleRestart}
       type="button"
       className="bg-blue-900 rounded px-1 py-1 hover:bg-blue-800 active:scale-110"

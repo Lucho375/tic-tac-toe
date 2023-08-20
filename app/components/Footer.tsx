@@ -6,7 +6,7 @@ export default function Footer(): JSX.Element {
   return (
     <footer className="bg-blue-900 h-14 flex justify-center items-center p-5">
       <div className="flex flex-col">
-        <span className="text-xs">Created by Luciano Rodríguez</span>
+        <h3 className="text-xs">Created by Luciano Rodríguez</h3>
         <nav className="flex justify-center ">
           <a aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer" href="https://github.com/Lucho375">
             <GitHubIcon className="hover:opacity-80 transition" />
