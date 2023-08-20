@@ -12,7 +12,7 @@ export default function Square({ value, onClick }: SquareProps) {
       {value && (
         <PlayerIcon
           isPlayerXNext={value === 'X'}
-          className={`text-7xl  ${value === 'X' ? 'text-red-600' : 'text-blue-700'}`}
+          className={`!text-7xl  ${value === 'X' ? 'text-red-600' : 'text-blue-700'}`}
         />
       )}
     </button>
