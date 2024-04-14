@@ -7,8 +7,9 @@ interface SquareProps {
 }
 
 export default function Square({ value, onClick }: SquareProps) {
+  const ariaLabel = value ? `Square with ${value}` : 'Empty square'
   return (
-    <button className="border border-gray-400 min-h-[100px] bg-slate-900" onClick={onClick}>
+    <button className="border border-gray-400 min-h-[100px] bg-slate-900" onClick={onClick} aria-label={ariaLabel}>
       {value && (
         <PlayerIcon
           isPlayerXNext={value === 'X'}
